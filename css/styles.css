@@ -31,6 +31,7 @@
 .sidebar img {
   width: 95%;
   margin-bottom: 15px;
+  width: 160px;
 }
 
 .side {
@@ -61,4 +62,17 @@ nav ul {
 
 input {
   background: no-repeat center;
+}
+
+div.panel-success {
+  background-color: #f5fffa;
+}
+
+div.panel-info {
+  background-color: #f5faff;
+}
+
+.col-img {
+  float: right;
+  margin: 15px 10px 0 0;
 }
