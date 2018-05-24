@@ -7,10 +7,10 @@
 </head>
 <body>
   <div class="container">
-    <div class="sidebar">
-      <img src="img/logo.jpg" alt="Wikipedia's logo">
-      <div class="side-unnamed-list">
-        <ul>
+    <div class="sidebar well">
+      <img src="img/logo.png" alt="Wikipedia's logo">
+      <div class="side-unnamed-list sidelist">
+        <ul class="side">
           <li><a href="#">Main Page</a></li>
           <li><a href="#">Contents</a></li>
           <li><a href="#">Featured content</a></li>
@@ -20,9 +20,9 @@
           <li><a href="#">Wikipedia store</a></li>
         </ul>
       </div>
-      <div class="side-interaction-list">
+      <div class="side-interaction-list sidelist">
         <h5>Interaction</h5>
-        <ul>
+        <ul class="side">
           <li><a href="#">Help</a></li>
           <li><a href="#">About Wikipedia</a></li>
           <li><a href="#">Community portal</a></li>
@@ -30,9 +30,9 @@
           <li><a href="#">Contact page</a></li>
         </ul>
       </div>
-      <div class="side-tools-list">
+      <div class="side-tools-list sidelist">
         <h5>Tools</h5>
-        <ul>
+        <ul class="side">
           <li><a href="#">What links here</a></li>
           <li><a href="#">Related changes</a></li>
           <li><a href="#">Upload file</a></li>
@@ -42,17 +42,17 @@
           <li><a href="#">Wikidata item</a></li>
         </ul>
       </div>
-      <div class="side-print-list">
+      <div class="side-print-list sidelist">
         <h5>Tools</h5>
-        <ul>
+        <ul class="side">
           <li><a href="#">Create a book</a></li>
           <li><a href="#">Download as PDF</a></li>
           <li><a href="#">Printable version</a></li>
         </ul>
       </div>
-      <div class="side-other-projects-list">
+      <div class="side-other-projects-list sidelist">
         <h5>Tools</h5>
-        <ul>
+        <ul class="side">
           <li><a href="#">Wikimedia Commons</a></li>
           <li><a href="#">MediaWiki</a></li>
           <li><a href="#">Meta-Wiki</a></li>
@@ -62,9 +62,18 @@
           <li><a href="#">Wikinews</a></li>
         </ul>
       </div>
-
-
     </div>
+    <nav>
+      <ul class="nav nav-tabs left-justify">
+        <li class="active"><a href="#">Main Page</a></li>
+        <li><a href="#">Talk</a></li>
+      </ul>
+      <ul class="nav nav-tabs right-justify">
+        <li class="active"><a href="#">Read</a></li>
+        <li><a href="#">View source</a></li>
+        <li><a href="#">View histroy</a></li>
+      </ul>
+    </nav>
   </div>
 </body>
 </html>

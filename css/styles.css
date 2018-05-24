@@ -1,0 +1,40 @@
+/* * {
+  outline: blue solid 1px;
+} */
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  max-width: 15%;
+  float: left;
+  padding: 0 15px 0 15px;
+  border-right: skyblue 1px solid;
+}
+
+.sidelist {
+  padding: 7px 0 0 7px;
+  font-size: 12px;
+}
+
+.sidebar img {
+  width: 95%;
+  margin-bottom: 15px;
+}
+
+.side {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 3px;
+}
+
+h5 {
+  border-bottom: 1px rgba(84, 87, 91, 0.3) solid;
+  font-weight: normal;
+}
