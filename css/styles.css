@@ -31,7 +31,7 @@
 .sidebar img {
   width: 95%;
   margin-bottom: 15px;
-  width: 160px;
+  max-width: 160px;
 }
 
 .side {
