@@ -2,16 +2,25 @@
   outline: blue solid 1px;
 } */
 
+.row {
+  /* width: 100%; */
+  margin: 0;
+}
 .container {
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
 .sidebar {
-  max-width: 15%;
+  /* max-width: 15%; */
   float: left;
   padding: 0 15px 0 15px;
   border-right: skyblue 1px solid;
+}
+
+.col-md-2 {
+  padding: 0;
 }
 
 .sidelist {
@@ -37,4 +46,19 @@ li {
 h5 {
   border-bottom: 1px rgba(84, 87, 91, 0.3) solid;
   font-weight: normal;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+.right-justify {
+  text-align: right;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background: no-repeat center;
 }
